@@ -34,7 +34,7 @@ let mvn = "./mvnw";
 if (platform === 'win32') {
     mvn = "./mvnw.cmd";
 }
-program.name(chalk_1.default.green("Xstarva Devtools CLI"));
+program.name(chalk_1.default.green("Xstava Devtools CLI"));
 program
     .command("build")
     .description("build project locally")
@@ -382,7 +382,7 @@ function gitAddChanges() {
     });
 }
 if (!process.argv.slice(2).length) {
-    console.log(chalk_1.default.red(figlet_1.default.textSync("Xstarva CLI", {
+    console.log(chalk_1.default.red(figlet_1.default.textSync("Xstava CLI", {
         horizontalLayout: "default",
         verticalLayout: "default",
         width: 100,

@@ -24,7 +24,7 @@ if (platform === 'win32') {
   mvn = "./mvnw.cmd"
 }
 
-program.name(chalk.green("Xstarva Devtools CLI"));
+program.name(chalk.green("Xstava Devtools CLI"));
 
 program
 .command("build")
@@ -478,7 +478,7 @@ async function gitAddChanges() {
 if (!process.argv.slice(2).length) {
   console.log(
       chalk.red(
-          figlet.textSync("Xstarva CLI", {
+          figlet.textSync("Xstava CLI", {
             horizontalLayout: "default",
             verticalLayout: "default",
             width: 100,

@@ -1,7 +1,7 @@
 {
   "name": "@starvn/xstarvn-cli",
-  "version": "1.0.0",
-  "description": "Xstarva Devtools CLI",
+  "version": "1.0.1",
+  "description": "Xstava Devtools CLI",
   "main": "bin/index.js",
   "bin": {
     "xstava": "bin/index.js"
