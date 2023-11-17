@@ -1,0 +1,32 @@
+{
+  "name": "@starvn/xstarvn-cli",
+  "version": "1.0.0",
+  "description": "Xstarva Devtools CLI",
+  "main": "bin/index.js",
+  "bin": {
+    "xstava": "bin/index.js"
+  },
+  "author": "Huy Duc Dao",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "xstava-cli"
+  ],
+  "dependencies": {
+    "chalk": "4.1.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "simple-git": "^3.20.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.9.0",
+    "@types/xml2js": "^0.4.14",
+    "typescript": "^5.2.2"
+  }
+}
